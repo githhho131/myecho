@@ -10,8 +10,7 @@
      * https://www.npmjs.com/package/stack-trace
      * https://www.npmjs.com/package/log4js
      * 
-	 * Использовано резервирование контента с self = this
-     * Javascript constructor
+
 
 	// var modulestack = require('../../node_modules/myecho');
 	// var stack = new modulestack();
