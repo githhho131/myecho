@@ -180,45 +180,6 @@ function Stack(){
 
 module.exports = Stack; 
 
-// var stack = {
-
-
-    
-//     info: "This is stackTrace module",
-//     echo: function(){
-//         var args, file, frame, line, method;
-//         //args = 1 <= arguments.length ? __slice.call(arguments, 0) : [];
-//         args = 1 <= arguments.length ? Array.prototype.slice.call(arguments, 0) : [];
-
-
-        
-      
-//         frame = stackTrace.get()[1];
-//         file = path.basename(frame.getFileName());
-//         line = frame.getLineNumber();
-//         method = frame.getFunctionName();
-      
-//         args.unshift("" + file + ":" + line + " in " + method + "()");
-
-
-//         var self = this;
-//         //self.tableRows
-
-//         self.logItFile();
-
-//         return log.info.apply(log, args); // changed 'debug' to canonical npmlog 'info'
-//     },
-//     logItFile: function(){
-//         log4js.configure({
-//             appenders: { cheese: { type: 'file', filename: 'log4js.log' } },
-//             categories: { default: { appenders: ['cheese'], level: 'error' } }
-//         });
-//         var logger = log4js.getLogger();
-//         logger.category = "FILElogger";
-//         logger.level = 'debug';
-//         logger.debug("Some debug messages");
-//     }
-// };
 
 
 
